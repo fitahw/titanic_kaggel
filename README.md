@@ -13,6 +13,11 @@
 uv run pytest
 ```
 
+## Odpalic za pomoca
+
+```shell
+uv run python -m app.main
+```
 ## Security
 
 If you discover any security-related issues, please email [email](mailto:email) instead of using the issue tracker.
