@@ -28,6 +28,9 @@ omit = [
     "alembic/*",
 ]
 
+[tool.setuptools]
+packages = ["app"]
+
 [tool.ruff]
 
 line-length = 100
