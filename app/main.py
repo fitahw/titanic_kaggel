@@ -22,7 +22,7 @@ def main():
     print(f"Train: {X_train.shape}, Val: {X_val.shape}")
     print(f"Features: {X_train.shape[1]}\n")
 
-    model = NeuralNetwork([X_train.shape[1], 8, 1], learning_rate=0.03, seed=42)
+    model = NeuralNetwork([X_train.shape[1], 8, 1], learning_rate=0.03, seed=67)
 
     #najlepsze wartości, jakie znalazłem
     model.train(X_train, y_train, epochs=200, batch_size=16)
